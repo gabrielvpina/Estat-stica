@@ -27,13 +27,10 @@ sample estimates:
       cor 
 0.9953937 
 
-> #comando cor.test() é usado para realizar um Teste de Hipóteses para a
-> o Coeficiente de Correlação. Como o Valor P do teste (p-value < 2.2e-16) é bem pequeno, conclui-se que o valor do Coeficiente de
-Erro: unexpected symbol in "o Coeficiente"
-> Correlação Linear de Pearson tem significância Estatística
-Erro: unexpected symbol in "Correlação Linear"
-> 
-> #comando cor.test() é usado para realizar um Teste de Hipóteses para o Coeficiente de Correlação. Como o Valor P do teste (p-value < 2.2e-16) é bem pequeno, conclui-se que o valor do Coeficiente de Correlação Linear de Pearson tem significância Estatística
+
+> #comando cor.test() é usado para realizar um Teste de Hipóteses para o Coeficiente de Correlação.
+Como o Valor P do teste (p-value < 2.2e-16) é bem pequeno, conclui-se que o valor do Coeficiente de
+Correlação Linear de Pearson tem significância Estatística
 > 
 > ajuste = lm(dados$d.2.h_X ~ dados$volume_Y)
 > 
@@ -48,7 +45,8 @@ Coefficients:
 
 > #função lm() para ajustar um modelo de regressão linear no R
 > #será um modelo de regressão linear de primeira ordem
-> # O R retorna o valor dos coeficientes de βˆ0 e βˆ1 estimados via Método de Mínimos Quadrados. Logo, a equação da reta ajustada é dada por Yˆ = -451,7 +30516.7Xi
+> # O R retorna o valor dos coeficientes de βˆ0 e βˆ1 estimados via Método de Mínimos Quadrados.
+Logo, a equação da reta ajustada é dada por Yˆ = -451,7 +30516.7Xi
 > 
 > summary(ajuste)
 
