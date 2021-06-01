@@ -12,4 +12,16 @@ barplot(freq, ylab = "Frequência", xlab = "n° de erros")
 hist(freq)
 #cria um histograma da frequência dos dados.
 
+hist(dados, freq = FALSE)
+#colocar o mesmo gráfico em frequência relativa.
+
+hist(dados, main = "frequência dos erros de impressão", ylab = "frequência", xlab = "erros de impressão")
+#inserindo título no gráfico.
+
+hist(dados, main = "frequência dos erros de impressão", ylab = "frequência", xlab = "erros de impressão", col = c('violet'), border = FALSE)
+#colorindo o histograma.
+
+
+
+
 ------------------------------------------------------------------------------------
